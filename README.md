@@ -2,9 +2,9 @@
 # Web Push Service
 
 ## Description
-This is a .NET CORE 2.1 Web Application following MVC, using MVC Identity for Authentication with code first approach. This repository is a POC (Proof-of-Concept) for creating a system to enable users for sending push notifications to their multiple web applications.
-The structure of this repository consist of two projects, one being the system containing the dashboard for the user to create projects for which they want to send push notification, the dashboard application also exposes a web API in order for the client to post the device information which is used to send the push notification.
-The other being the sample client application containing a serviceWorker for handling the push notifications and the subscription logic to subscribe a device to the web push system, this client application is also hosted at ( https://nifty-hugle-66efd5.netlify.app/ ).
+This is a .NET CORE 2.1 Web Application following MVC, using MVC Identity for Authentication with code first approach. This repository is a POC (Proof-of-Concept) for creating a system to enable users for sending push notifications to their multiple web applications.  
+The structure of this repository consist of two projects, one being the system containing the dashboard for the user to create projects for which they want to send push notification, the dashboard application also exposes a web API in order for the client to post the device information which is used to send the push notification.  
+The other being the sample client application containing a serviceWorker for handling the push notifications and the subscription logic to subscribe a device to the web push system, this client application is also hosted at ( https://nifty-hugle-66efd5.netlify.app/ ).  
 The scope of this can be further extended by creating an sdk for the code required on client which the user can embed in their application to extract the subscription information and also for the handler.
 
 
